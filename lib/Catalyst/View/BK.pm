@@ -11,7 +11,7 @@ __PACKAGE__->mk_accessors('context');
 
 =head1 NAME
 
-CMS::View::BK - Catalyst View for Bricklayer::Templater
+Catalyst::View::BK - Catalyst View for Bricklayer::Templater
 
 =head1 DESCRIPTION
 
