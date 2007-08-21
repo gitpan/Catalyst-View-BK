@@ -1,0 +1,6 @@
+MANIFEST
+t/catalyst_view_bk-basic.t
+lib/Catalyst/View/BK.pm
+lib/Catalyst/Helper/View/BK.pm
+Changes
+META.yml
