@@ -1,4 +1,7 @@
 MANIFEST
+Build
+Build.pl
+Makefile.pl
 t/catalyst_view_bk-basic.t
 lib/Catalyst/View/BK.pm
 lib/Catalyst/Helper/View/BK.pm
