@@ -18,7 +18,7 @@ BEGIN: {
                   ;
 
     use_ok('Catalyst::View::BK');
-#    use_ok('Catalyst::Test', 'TestApp');
+    
 }
 my $body;
 my $debug = Test::MockObject->new({});
@@ -41,8 +41,7 @@ my $bk;
     ok($bk = Catalyst::View::BK->new($cat), 'initialize a view object'); 
 }
 
-TODO: { # Render tests
-    local $TODO = "test the render method of this view";
+{ # Render tests
     my $ep = 'tester was here :-)';
     $bk->render($cat, 'test');
     is($body, $ep, 'page text matches expected');

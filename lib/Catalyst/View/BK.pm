@@ -22,7 +22,7 @@ Catalyst View. Implements the Bricklayer Templating engine for Catalyst
 Jeremy Wall <Zaphar> (Jeremy@marzhillstudios.com)
 
 
-=head 1 Catalyst::View::BK Configuration
+=head1 Catalyst::View::BK Configuration
 
 Bricklayer attempts to use sane defaults so in reality you don't 
 need to specify anything here if you don't want to.
@@ -31,9 +31,9 @@ If you do want to override the defaults then there are two
 configuration values you can override. The Tag Identifier and the
 Template Extension.
 
-    CMS->config(
-        name     => 'CMS',
-        root     => CMS->path_to('root');,
+    APP->config(
+        name     => 'APP',
+        root     => APP->path_to('root');,
         'View::BK' => {
             # any BK configurations items go here
            'bk_ext' => 'txml',
@@ -47,7 +47,7 @@ Template Extension.
 
 =cut
 
-my $VERSION = '0.1';
+my $VERSION = '0.2';
 
 sub new { #initialize view here
 	#Use next to overload the base classes new method?
